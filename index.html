@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Craigslist homepage redesign</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Redesign for Craigslist" name="Craigslist" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<!--Montserrat Font-->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+          ]
+        }
+      });
+    </script>
+  </head>
+
+  <body class="body">
+    <header id="nav" class="sticky-nav">
+      <nav class="w-container">
+        <ul role="list" class="nav-grid w-list-unstyled">
+          <li id="logo">
+            <a href="#" class="nav-logo-link w-inline-block"
+              ><img
+                src="assets/Craigslist.png"
+                srcset="
+                  assets/Craigslist-500.png 500w,
+                  assets/Craigslist-800.png 800w,
+                  assets/Craigslist-1080.png 1080w,
+                  assets/Craigslist.png 1200w
+                "
+                sizes="(max-width: 479px) 80vw, (max-width: 767px) 43vw, 235.28750610351562px"
+                alt=""
+                class="nav-logo"
+            /></a>
+          </li>
+          <li><a href="#" class="nav-link">Create Post</a></li>
+          <li><a href="#" class="nav-link"></a></li>
+          <li><a href="#" class="button w-button">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form action="/search" class="search w-form">
+      <input
+        type="search"
+        class="search-input w-input"
+        maxlength="256"
+        name="query"
+        placeholder=""
+        id="search"
+        required=""
+      /><input type="submit" value="Search" class="search-button w-button" />
+    </form>
+    <div class="w-layout-grid grid">
+      <div class="cagsdiv">
+        <img
+          src="assets/grants-100.png"
+          loading="lazy"
+          alt=""
+          class="compic"
+        />
+        <h1 class="heading">COMMUNITY</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/job-seeker-100.png"
+          loading="lazy"
+          alt=""
+          class="jobspic"
+        />
+        <h1 class="heading">JOBS</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/real-estate-100.png"
+          loading="lazy"
+          alt=""
+          class="housingpic"
+        />
+        <h1 class="heading">HOUSING</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/services-100.png"
+          loading="lazy"
+          alt=""
+          class="serpic"
+        />
+        <h1 class="heading">SERVICES</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/sales-performance-100.png"
+          loading="lazy"
+          alt=""
+          class="salepic"
+        />
+        <h1 class="heading">FOR SALES</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/communication-100.png"
+          loading="lazy"
+          alt=""
+          class="dispic"
+        />
+        <h1 class="heading">DISCUSSION</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/high-five-100.png"
+          loading="lazy"
+          alt=""
+          class="gigpic"
+        />
+        <h1 class="heading">GIGS</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/profiles-100.png"
+          loading="lazy"
+          alt=""
+          class="respic"
+        />
+        <h1 class="heading">RESUMES</h1>
+      </div>
+      <div class="cagsdiv">
+        <img
+          src="assets/stage-100.png"
+          loading="lazy"
+          alt=""
+          class="eventpic"
+        />
+        <h1 class="heading">EVENTS</h1>
+      </div>
+    </div>
+    <footer id="footer" class="footer-2">
+      <div class="w-container">
+        <div class="footer-flex-container">
+          <a href="#" class="footer-logo-link w-inline-block"
+            ><img
+              src="assets/Craigslist.png"
+              height="50"
+              width="100"
+              srcset="
+                  assets/Craigslist-500.png 500w,
+                  assets/Craigslist-800.png 800w,
+                  assets/Craigslist-1080.png 1080w,
+                  assets/Craigslist.png 1200w
+                "
+              sizes="130px"
+              alt=""
+              class="footer-image"
+          /></a>
+          <div class="div-block-2">
+            <h2 class="footer-heading">About Us</h2>
+            <ul role="list" class="w-list-unstyled">
+              <li><a href="#" class="footer-link">About Craigslist</a></li>
+              <li><a href="#" class="footer-link">Open Source</a></li>
+              <li><a href="#" class="footer-link">Craigslist Blog</a></li>
+              <li><a href="#" class="footer-link">Best of Craigslist</a></li>
+              <li>
+                <a href="#" class="footer-link">Craigslist Joe</a
+                ><a href="#" class="footer-link"
+                  >Craig Newmark Philanthropies</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="div-block">
+            <h2 class="footer-heading">Help</h2>
+            <ul role="list" class="w-list-unstyled">
+              <li><a href="#" class="footer-link">FAQ &amp; Legal</a></li>
+              <li>
+                <a href="#" class="footer-link">Report Scams &amp; Fraud</a
+                ><a href="#" class="footer-link">Safety Tips</a
+                ><a href="#" class="footer-link">Terms of Use</a
+                ><a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+            </ul>
+            <a href="#" class="footer-link">System Status</a>
+          </div>
+          <div class="div-block-3">
+            <h2 class="footer-heading">Stay Connected</h2>
+            <ul role="list" class="w-list-unstyled">
+              <li><a href="#" class="footer-link">Feedback</a></li>
+              <li><a href="#" class="footer-link">Craigslist App</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-block">
+          Copyright © 2020 craigslist. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
